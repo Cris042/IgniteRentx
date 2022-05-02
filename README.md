@@ -18,12 +18,9 @@ Ou:
 ```
 $ npm install
 ```
-> Foi instalado e configurado o [`eslint`](https://eslint.org/) e [`prettier`](https://prettier.io/) para manter o código limpo e padronizado.
-
----
 
 ### **Configurando Banco de dados**
-A aplicação usa dois banco de dados: [Postgres](https://www.postgresql.org/) e [Redis](https://redis.io/). Para a configuração mais rápida é recomendado usar [docker-compose](https://docs.docker.com/compose/), você só precisa fazer o up de todos os serviços:
+A aplicação usa dois banco de dados, Postgres e Redis. Para a configuração mais rápida é recomendado usar docker-compose, você só precisa fazer o up de todos os serviços:
 ```
 $ docker-compose up -d
 ```
